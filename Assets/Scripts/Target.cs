@@ -39,7 +39,7 @@ public class Target : MonoBehaviour
         }
         
     }
-    private void OntriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
 
